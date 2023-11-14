@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@600&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;0,900;1,100&display=swap');
+
+:root{
+	--background--:#ffffff;
+	--primary--color--dark:#0a419f;
+	--primary--color--light:#bcd1f3;
+	--text--dark:#141414;
+	--text--light:rgb(87, 69, 177);
+	--white--: #ffff;
+	--max-width-1400: 100%;
+	--max-width-1200: 1200px;
+	--max-width-900: 900px;
+  --header--font: 'PT Sans', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--header--font);
+  }
+
+body{
+padding: 5px;
+background-color: #e0e0e0;
+}
+.container{
+	max-width: var(--max-width-1400);
+	margin: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.navbar{
+	min-height: 80px;
+	flex-direction: row;
+	background-color: var(--background--);
+    justify-content: center;
+	align-items: center;
+}
+.banner{
+	background-color: var(--primary--color--dark);
+	min-height: 300px;
+	display: flex;
+    justify-content: center;
+	align-items: center;
+	color: var(--white--);
+	font-size: 30px;
+}
+.row{
+	width: var(--max-width-1400);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.kiri{
+	border: 1px solid var(--text--dark);
+    width: 30%;
+    background-color: var(--primary--color--light);
+	display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-content: center;
+	align-items: center;
+	overflow: auto;
+}
+.sidebar {
+    font-size: 23px;
+	margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+a{
+	text-decoration: none;
+	padding: 20px;
+	color: var(--text--dark);
+	
+}
+.grid {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    height: 80%;
+}
+
+.kanan{
+	border: 1px solid var(--text--dark);
+    width: 70%;
+    background-color: var(--background--);
+	display: flex;
+    justify-content: center;
+	align-items: center;
+}
+.konten-utama{
+	padding: 20px;
+}
+.column{
+	flex-basis: 70%;
+	min-width: 70%;
+	padding: 20px;
+}
+.column img{
+	width: 100%;
+	margin: 5px;
+	border-radius: 5px;
+}
+footer{
+    height: 60px;
+	color: var(--white--);
+	font-size: 12px;
+    align-items: center;
+	display: flex;
+    justify-content: center;
+    background: var(--primary--color--dark);
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+float: right;}
+
+nav ul li{
+list-style-type: none;
+display: inline-flex;
+line-height: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+	margin: 20px;
+	padding: 5px;
+    color: var(--text--dark);
+	border-radius: 5px;}
+
+nav ul li a:hover{
+    color: rgb(24, 12, 12);
+    background-color: var(--primary--color--light)
+}
+
+.column2{
+	min-width: 100%;
+	padding: 20px;
+}
+
+.box{
+    background-color:var(--background--);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	border:1px solid #141414;
+  }
+
+  .form{
+    display: flex;
+    flex-direction: column;
+    min-height: 100px;
+    width: 100%;
+  }
+.form1{
+	display: flex;
+    flex-direction: row;
+	margin: 20px;
+	border-radius: 1px solid;
+    justify-content: space-between;
+}
+.form2{
+	align-items: center;
+	display: flex;
+    justify-content: center;
+    flex-direction: row;
+	width: 100%;
+	border-radius: 1px solid;
+}
+.form22{
+	width: 90%;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+	justify-content: space-between;
+}
+
+.form input{
+    justify-content: center;
+	align-items: center;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 5px;
+}
+.tombol{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 20px;
+    padding-left: 20px;
+    justify-content: initial;
+  }
+  .btn{
+    height: 40px;
+    width: 120px;
+    background-color: #787ec0;
+    border: 0;
+    border-radius: 5px;
+    color: #ededed;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all .3s;
+}
+.btn:hover{
+    background-color: rgba(58, 63, 108, 0.469);
+    transition: all .2s ease;
+    color: #ededed;
+}
