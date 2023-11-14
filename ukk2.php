@@ -21,7 +21,7 @@
 
         <div class="banner">
             <header >
-            <p>Selamat Datang Di Website Kami!</p>
+            <p>Selamat Datang Di Portal Pendaftaran!</p>
             </header>
         </div>
 
@@ -44,24 +44,45 @@
                     <div style="margin-top: 20px;" class="box form">
 
                             <div class="form1">
-                            <input placeholder="Nama Depan" type="text">
-                            <input placeholder="Nama Belakang" type="text">
-                            <input placeholder="Email" type="email">
+                                <div class="column3">
+                                    <label for="">Nama Depan</label>
+
+                                    <input placeholder="Nama Depan" type="text">
+                                </div>
+
+                                <div class="column3">
+                                    <label for="">Nama Belakang</label>
+                                    <input placeholder="Nama Belakang" type="text">
+                                </div>
+
+                                <div class="column3">
+                                    <label for="">Nama Email</label>
+                                    <input placeholder="Email" type="email">
+                                </div>
                             </div>
                             <div class="form2">
-                            <input class="form22" placeholder="Username" type="text">
+                            <div class="column3" style="margin-left: 35px;">
+                                    <label for="">Username</label>
+                                    <input class="form22" placeholder="Username" type="text">
+                            </div>
                             </div>
                             <div class="form1">
-                            <input class="form22" placeholder="Password" type="password">
-                            <input class="form22" placeholder="Confirm Password" type="password">
+                            <div class="column3">
+                                    <label for="">Password</label>
+                                    <input class="form22" placeholder="Password" type="password">
+                            </div>
+                            <div class="column3">
+                                    <label for="">Confirm Password</label>
+                                    <input class="form22" placeholder="Confirm Password" type="password">
+                            </div>
                             </div>
                            
 
                             <!-- Input Data -->
                             <center>
                             <div class="tombol">
-                                <input class="btn" type="submit" name="Login" value="Tombol" >
-                                <input class="btn" type="submit" name="submit" value="Tombol" id=""> 
+                                <input class="btn" type="submit" name="Login" value="Reset Form" >
+                                <input class="btn" type="submit" name="submit" value="Submit form" id=""> 
                             </div>
                             </center>
                         </form>
